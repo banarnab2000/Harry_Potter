@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    background-image: url("starBg.2d56f5ec.jpg");
+    width: 80%;
+}
+
+#set {
+    position: fixed;
+    left: 40%;
+    top: 10%;
+}
+
+#ex {
+    position: fixed;
+    left: 15%;
+    top: -40%;
+}
+
+div {
+    font-size: 20px;
+    color: white;
+
+}
+
+#back {
+    width: 100%;
+}

@@ -1,0 +1,165 @@
+h1 {
+    color: rgb(8, 7, 7);
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 15px;
+    font-size: 60px;
+    font-family: Copperplate, fantasy;
+}
+
+h2 {
+    color: #11137d;
+    text-align: center;
+    text-decoration: #11137d underline;
+    font-family: Copperplate, fantasy;
+}
+
+body {
+    background-color: rgb(200, 196, 196);
+    width: 60%;
+    margin: auto;
+}
+
+button {
+    color: blueviolet;
+}
+
+p {
+    color: brown;
+    line-height: 2;
+    font-size: 400;
+    font-family: Courier New;
+}
+
+img,
+video {
+    width: 70%;
+    text-align: center;
+    height: 300px;
+    margin: 0 -25%;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: blueviolet;
+}
+
+.one {
+    text-align: right !important;
+    width: 250px;
+    height: 250px;
+    background-color: #11137d;
+    /* border-width: 5px;
+    border-color: magenta;
+    border-style: solid; */
+    border: magenta 5px solid;
+    box-sizing: border-box;
+    border-left-width: 12px;
+    margin: 5px;
+    transition: 3s linear;
+}
+
+.one:hover {
+    margin-left: 500px;
+    background-color: chartreuse;
+}
+
+.two {
+    width: 250px;
+    height: 250px;
+    background-color: teal;
+    border: black 5px solid;
+    border-radius: 20%;
+    border-left-width: 12px;
+    margin: 5px;
+    transition: width 2s linear, background-color 3s;
+}
+
+.two:hover {
+    width: 500px;
+    background-color: chartreuse;
+}
+
+.tap {
+    color: rgb(154, 226, 244);
+    background-color: black;
+    font-family: Courier New;
+}
+
+nav a,
+aside p {
+    color: red;
+    font-size: 30px;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+::selection {
+    color: antiquewhite;
+}
+
+#pad {
+    padding: 10px;
+    background-color: darkgreen;
+    color: aqua;
+    border: black 10px solid;
+    border-radius: 50%;
+    text-shadow: #11137d;
+    font-size: 20px;
+    transition: background-color 0.5s linear;
+}
+
+#pad:hover {
+    font-size: 30px;
+    background-color: rgb(161, 15, 15);
+    /* margin: 10px;
+    margin-left: 500px; */
+}
+
+
+.login {
+    position: fixed;
+    transform: translate(62rem, -210px);
+    border: white 5px solid;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.signup {
+    position: fixed;
+    transform: translate(68.5rem, -210px);
+    border: white 5px solid;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.login:hover {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.signup:hover {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+img,
+video {
+    position: relative;
+    left: 40%;
+}
+
+label,
+input {
+    margin: auto;
+}
